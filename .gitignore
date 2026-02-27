@@ -1,0 +1,51 @@
+# ── Python ────────────────────────────────────────────────────────────
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Environment / Secrets ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Model weights (each ~244 MB – exceeds GitHub's 100 MB limit) ──────
+weights/*.weights
+
+# ── Runtime data – generated at run-time, not source code ─────────────
+nutrivision.db
+uploads/*
+!uploads/.gitkeep
+results/cropped_img/*
+!results/cropped_img/.gitkeep
+results/final_result_img/*
+!results/final_result_img/.gitkeep
+test_images/*
+!test_images/.gitkeep
+
+# ── Frontend ──────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# ── OS / IDE ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.njsproj
+*.sln
+
+# ── Logs ──────────────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
