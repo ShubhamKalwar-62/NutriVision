@@ -74,8 +74,8 @@ A **React + Vite** frontend provides the full web UI.
 
 ### 1 — Clone the repo
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/ShubhamKalwar-62/NutriVision.git
+cd NutriVision
 ```
 
 ### 2 — Download model weights
