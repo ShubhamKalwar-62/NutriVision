@@ -13,6 +13,7 @@
 - [Download Model Weights](#download-model-weights)
 - [Training](#training)
 - [Dataset](#dataset)
+- [Attribution & Academic Use](#attribution--academic-use)
 - [License](#license)
 
 ---
@@ -139,6 +140,29 @@ Training notebooks are in `Extra_components/`:
 
 - **Roboflow:** [Fruits & Thumb Detection Dataset](https://app.roboflow.com/chetan-projects-object-detcions/fruits--and-thumb-detection)
 - **Classes:** `Apple`, `Banana`, `Carrot`, `Onion`, `Orange`, `Qiwi`, `Tomato`, `thumb`
+
+---
+
+## Attribution & Academic Use
+
+This project is originally developed by **Chetan Jarande, Mukta Bhagwat, Vishakha Patil, and Diya Ukirde** and is available as an open-source project on [GitHub](https://github.com/chetan-jarande/Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision).
+
+This repository is a **refined and extended fork** of that original work. The following additional contributions have been made:
+
+- Built a complete **full-stack web application** (Flask REST API + React/Vite frontend) with user authentication, JWT sessions, and scan history — none of which existed in the original project.
+- Rewrote the **volume & calorie estimation pipeline** to use YOLO bounding-box dimensions as the physical scale reference, fixing a critical bug that produced astronomically wrong calorie values (e.g. 1.4 million kcal for a banana).
+- Added **colour-based Apple / Orange post-classification** to correct frequent model misidentification between the two fruits.
+- Added the **logo asset**.
+- General code cleanup, error handling, and GitHub preparation.
+
+If you are using this project for **academic purposes** — such as a final year project — it is **mandatory** that you:
+
+1. Acknowledge the original authors: **Chetan Jarande, Mukta Bhagwat, Vishakha Patil, and Diya Ukirde**.
+2. Credit this fork for the additional full-stack and bug-fix contributions described above.
+3. State clearly that your work is **based on an existing open-source project** and describe what modifications you have made.
+4. **Not claim the project as entirely your own original work.**
+
+Failure to adhere to these conditions violates both the project's license and academic integrity standards.
 
 ---
 
