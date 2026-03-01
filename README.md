@@ -1,5 +1,11 @@
 ﻿# NutriVision — Food Calorie Estimation Using Deep Learning & Computer Vision
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![React](https://img.shields.io/badge/React-19-61dafb.svg)](https://react.dev/)
+[![YOLOv4](https://img.shields.io/badge/YOLOv4-98.6%25%20mAP-success.svg)](https://github.com/AlexeyAB/darknet)
+[![Flask](https://img.shields.io/badge/Flask-3.0-lightgrey.svg)](https://flask.palletsprojects.com/)
+
 > Detect food items from a photo, estimate portion size using a thumb reference, and get instant calorie breakdowns — powered by YOLOv4 + a React/Vite frontend.
 
 ---
@@ -13,6 +19,7 @@
 - [Download Model Weights](#download-model-weights)
 - [Training](#training)
 - [Dataset](#dataset)
+- [Contributing](#contributing)
 - [Attribution & Academic Use](#attribution--academic-use)
 - [License](#license)
 
@@ -89,7 +96,7 @@ python -m venv .venv
 # source .venv/bin/activate       # macOS / Linux
 
 # Install dependencies
-pip install flask flask-cors opencv-python numpy
+pip install -r requirements.txt
 
 # (Optional) copy and edit the env file
 cp .env.example .env
@@ -140,6 +147,16 @@ Training notebooks are in `Extra_components/`:
 
 - **Roboflow:** [Fruits & Thumb Detection Dataset](https://app.roboflow.com/chetan-projects-object-detcions/fruits--and-thumb-detection)
 - **Classes:** `Apple`, `Banana`, `Carrot`, `Onion`, `Orange`, `Qiwi`, `Tomato`, `thumb`
+
+---
+
+## Contributing
+
+We welcome contributions from the community! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
+- Reporting bugs
+- Suggesting enhancements
+- Submitting pull requests
+- Code style and testing
 
 ---
 
