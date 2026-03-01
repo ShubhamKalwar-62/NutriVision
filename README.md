@@ -120,15 +120,34 @@ Open your browser at **http://localhost:5173**
 
 ## Download Model Weights
 
-The weights files are ~244 MB each and exceed GitHub's 100 MB file size limit.
-They are hosted on Google Drive.
+⚠️ **Important:** The model weight files (~244 MB each) exceed GitHub's 100 MB file size limit and are hosted externally.
 
-**Download:** [YOLOv4 Weights — Google Drive](https://drive.google.com/drive/folders/13kAvdJRTdD1-EBWndrdziyN0sXqczoZU?usp=sharing)
+### Available Models
 
-Place the downloaded file at:
-```
-weights/custom-yolov4-detector_3000(98.61).weights
-```
+| Model | mAP | Size | Download |
+|-------|-----|------|----------|
+| **YOLOv4 (Recommended)** | 98.61% | 244 MB | [Google Drive](https://drive.google.com/drive/folders/13kAvdJRTdD1-EBWndrdziyN0sXqczoZU?usp=sharing) \| [Hugging Face](#) |
+
+### Installation Steps
+
+1. **Download** the model `custom-yolov4-detector_3000(98.61).weights` from the Google Drive link above
+   
+2. **Place** the file in the `weights/` directory (keep the exact filename):
+   ```
+   weights/custom-yolov4-detector_3000(98.61).weights
+   ```
+
+3. **Verify** the file is correctly placed:
+   ```bash
+   # Windows
+   dir weights\
+   
+   # macOS/Linux
+   ls weights/
+   ```
+   You should see: `custom-yolov4-detector_3000(98.61).weights`
+
+> **📝 Note:** If you download a different weight file, update the `MODEL_PATH` variable in [api_server.py](api_server.py#L26) to match the filename.
 
 ---
 
