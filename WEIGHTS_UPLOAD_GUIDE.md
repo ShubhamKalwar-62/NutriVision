@@ -23,6 +23,8 @@ This guide explains how to upload your model weights to Google Drive or Hugging 
 
 ## Option 2: Hugging Face (Recommended for ML Projects)
 
+✅ **Status**: Successfully set up at https://huggingface.co/ERROR-0/nutrivision-yolov4-weights
+
 ### Why Hugging Face?
 - ✅ Built for ML models
 - ✅ Version control (Git LFS)
@@ -76,7 +78,7 @@ YOLOv4 model weights for food detection and calorie estimation.
 ## Usage
 Download and place in `weights/` directory:
 ```bash
-wget https://huggingface.co/YOUR-USERNAME/nutrivision-yolov4-weights/resolve/main/custom-yolov4-detector_3000(98.61).weights
+wget https://huggingface.co/ERROR-0/nutrivision-yolov4-weights/resolve/main/custom-yolov4-detector_3000(98.61).weights
 ```
 
 ## Project
@@ -84,9 +86,9 @@ Part of [NutriVision](https://github.com/ShubhamKalwar-62/NutriVision) - Food ca
 ```
 
 #### 5. Update Your Project README
-Replace the Hugging Face link in your main README.md:
+✅ **Done!** The main README.md has been updated with the Hugging Face link:
 ```markdown
-[Hugging Face](https://huggingface.co/YOUR-USERNAME/nutrivision-yolov4-weights)
+[Hugging Face](https://huggingface.co/ERROR-0/nutrivision-yolov4-weights)
 ```
 
 ---

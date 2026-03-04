@@ -75,6 +75,15 @@ A **React + Vite** frontend provides the full web UI.
 
 ## Getting Started
 
+### 📚 Setup Guides
+
+Choose the guide that fits your experience level:
+
+- **🆕 New to Python/Node.js?** → See [**SETUP_GUIDE.md**](SETUP_GUIDE.md) for detailed step-by-step instructions
+- **⚡ Experienced developer?** → See [**QUICKSTART.md**](QUICKSTART.md) for rapid setup (5 min)
+- **� Running into problems?** → See [**TROUBLESHOOTING.md**](TROUBLESHOOTING.md) for solutions to common issues
+- **�📖 Quick overview?** → Continue reading below
+
 ### Prerequisites
 - Python 3.10+
 - Node.js 18+
@@ -126,7 +135,7 @@ Open your browser at **http://localhost:5173**
 
 | Model | mAP | Size | Download |
 |-------|-----|------|----------|
-| **YOLOv4 (Recommended)** | 98.61% | 244 MB | [Google Drive](https://drive.google.com/drive/folders/13kAvdJRTdD1-EBWndrdziyN0sXqczoZU?usp=sharing) \| [Hugging Face](#) |
+| **YOLOv4 (Recommended)** | 98.61% | 244 MB | [Google Drive](https://drive.google.com/drive/folders/13kAvdJRTdD1-EBWndrdziyN0sXqczoZU?usp=sharing) \| [Hugging Face](https://huggingface.co/ERROR-0/nutrivision-yolov4-weights) |
 
 ### Installation Steps
 
@@ -146,6 +155,22 @@ Open your browser at **http://localhost:5173**
    ls weights/
    ```
    You should see: `custom-yolov4-detector_3000(98.61).weights`
+
+### Quick Download Commands
+
+**Using wget (Linux/macOS/Git Bash):**
+```bash
+# Download from Hugging Face (recommended)
+wget https://huggingface.co/ERROR-0/nutrivision-yolov4-weights/resolve/main/custom-yolov4-detector_3000(98.61).weights -O weights/custom-yolov4-detector_3000\(98.61\).weights
+
+# Or using curl
+curl -L https://huggingface.co/ERROR-0/nutrivision-yolov4-weights/resolve/main/custom-yolov4-detector_3000(98.61).weights -o "weights/custom-yolov4-detector_3000(98.61).weights"
+```
+
+**Using PowerShell (Windows):**
+```powershell
+Invoke-WebRequest -Uri "https://huggingface.co/ERROR-0/nutrivision-yolov4-weights/resolve/main/custom-yolov4-detector_3000(98.61).weights" -OutFile "weights/custom-yolov4-detector_3000(98.61).weights"
+```
 
 > **📝 Note:** If you download a different weight file, update the `MODEL_PATH` variable in [api_server.py](api_server.py#L26) to match the filename.
 
