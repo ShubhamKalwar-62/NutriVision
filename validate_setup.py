@@ -15,7 +15,8 @@ def check_imports():
     required_packages = {
         'cv2': 'opencv-python',
         'numpy': 'numpy',
-        'matplotlib': 'matplotlib'
+        'flask': 'Flask',
+        'flask_cors': 'flask-cors'
     }
     
     missing_packages = []

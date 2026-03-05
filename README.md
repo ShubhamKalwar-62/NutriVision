@@ -1,10 +1,10 @@
 ﻿# NutriVision — Food Calorie Estimation Using Deep Learning & Computer Vision
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![React](https://img.shields.io/badge/React-19-61dafb.svg)](https://react.dev/)
 [![YOLOv4](https://img.shields.io/badge/YOLOv4-98.6%25%20mAP-success.svg)](https://github.com/AlexeyAB/darknet)
-[![Flask](https://img.shields.io/badge/Flask-3.0-lightgrey.svg)](https://flask.palletsprojects.com/)
+[![Flask](https://img.shields.io/badge/Flask-3.1-lightgrey.svg)](https://flask.palletsprojects.com/)
 
 > Detect food items from a photo, estimate portion size using a thumb reference, and get instant calorie breakdowns — powered by YOLOv4 + a React/Vite frontend.
 
@@ -80,12 +80,11 @@ A **React + Vite** frontend provides the full web UI.
 Choose the guide that fits your experience level:
 
 - **🆕 New to Python/Node.js?** → See [**SETUP_GUIDE.md**](SETUP_GUIDE.md) for detailed step-by-step instructions
-- **⚡ Experienced developer?** → See [**QUICKSTART.md**](QUICKSTART.md) for rapid setup (5 min)
-- **� Running into problems?** → See [**TROUBLESHOOTING.md**](TROUBLESHOOTING.md) for solutions to common issues
+- **⚡ Experienced developer?** → See [**QUICKSTART.md**](QUICKSTART.md) for rapid setup (5 min)- **🔄 Upgrading from older version?** → See [**MIGRATION_GUIDE.md**](MIGRATION_GUIDE.md) to update dependencies- **� Running into problems?** → See [**TROUBLESHOOTING.md**](TROUBLESHOOTING.md) for solutions to common issues
 - **�📖 Quick overview?** → Continue reading below
 
 ### Prerequisites
-- Python 3.10+
+- Python 3.12+
 - Node.js 18+
 
 ### 1 — Clone the repo
